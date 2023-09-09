@@ -1,0 +1,3272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PVScan version="5.4.64.700" date="2/14/2021 12:06:24 PM" notes="">
+  <SystemIDs SystemID="97C7-42EE-C3EB-9AF3-D89B-B94F-E26C-8075">
+    <SystemID SystemID="4288" Description="2P Ultima/SFC system with Helios laser launch" />
+  </SystemIDs>
+  <PVStateShard>
+    <PVStateValue key="activeMode" value="SFC" />
+    <PVStateValue key="bitDepth" value="16" />
+    <PVStateValue key="daq">
+      <IndexedValue index="0" value="Gain10" description="10x" />
+      <IndexedValue index="1" value="Gain10" description="10x" />
+      <IndexedValue index="2" value="Gain10" description="10x" />
+      <IndexedValue index="3" value="Gain10" description="10x" />
+    </PVStateValue>
+    <PVStateValue key="dwellTime" value="4" />
+    <PVStateValue key="framePeriod" value="0.08" />
+    <PVStateValue key="heliosID">
+      <IndexedValue index="0" value="09194988" description="09194988" />
+    </PVStateValue>
+    <PVStateValue key="heliosNDFilter">
+      <IndexedValue index="0" value="0" description="Open" />
+    </PVStateValue>
+    <PVStateValue key="interlacedScanChannelMapping">
+      <IndexedValue index="0" value="0" />
+      <IndexedValue index="1" value="1" />
+      <IndexedValue index="2" value="2" />
+      <IndexedValue index="3" value="3" />
+    </PVStateValue>
+    <PVStateValue key="interlacedScanTrackCount" value="1" />
+    <PVStateValue key="interlacedScanTrackLasers">
+      <IndexedValue index="0" value="0" />
+      <IndexedValue index="1" value="" />
+      <IndexedValue index="2" value="" />
+      <IndexedValue index="3" value="" />
+    </PVStateValue>
+    <PVStateValue key="interlacedScanTrackMapping">
+      <IndexedValue index="0" value="-1" />
+      <IndexedValue index="1" value="-1" />
+      <IndexedValue index="2" value="-1" />
+      <IndexedValue index="3" value="-1" />
+    </PVStateValue>
+    <PVStateValue key="interlacedScanTrackPowers">
+      <IndexedValue index="0" value="-1" />
+      <IndexedValue index="1" value="" />
+      <IndexedValue index="2" value="" />
+      <IndexedValue index="3" value="" />
+    </PVStateValue>
+    <PVStateValue key="laserPower">
+      <IndexedValue index="0" value="0" description="Pockels" />
+      <IndexedValue index="1" value="0" description="405 nm" />
+      <IndexedValue index="2" value="924.7311827957" description="488 nm" />
+      <IndexedValue index="3" value="0" description="561 nm" />
+      <IndexedValue index="4" value="0" description="640 nm" />
+    </PVStateValue>
+    <PVStateValue key="laserPowerAttenuation">
+      <IndexedValue index="0" value="0" description="Pockels" />
+    </PVStateValue>
+    <PVStateValue key="laserPowerMode">
+      <IndexedValue index="0" value="0" />
+    </PVStateValue>
+    <PVStateValue key="laserWavelength">
+      <IndexedValue index="0" value="680" description="Exciter" />
+    </PVStateValue>
+    <PVStateValue key="linesPerFrame" value="512" />
+    <PVStateValue key="maxVoltage">
+      <IndexedValue index="XAxis" value="6" />
+      <IndexedValue index="YAxis" value="-6" />
+    </PVStateValue>
+    <PVStateValue key="micronsPerPixel">
+      <IndexedValue index="XAxis" value="0.263157894736842" />
+      <IndexedValue index="YAxis" value="0.263157894736842" />
+      <IndexedValue index="ZAxis" value="0.3" />
+    </PVStateValue>
+    <PVStateValue key="minVoltage">
+      <IndexedValue index="XAxis" value="-6" />
+      <IndexedValue index="YAxis" value="6" />
+    </PVStateValue>
+    <PVStateValue key="objectiveLens" value="Olympus 60X C.F." />
+    <PVStateValue key="objectiveLensMag" value="60" />
+    <PVStateValue key="objectiveLensNA" value="1" />
+    <PVStateValue key="opticalZoom" value="1" />
+    <PVStateValue key="pixelsPerLine" value="512" />
+    <PVStateValue key="pmtGain">
+      <IndexedValue index="0" value="0" description="PMT 1 HV" />
+      <IndexedValue index="1" value="0" description="PMT 2 HV" />
+    </PVStateValue>
+    <PVStateValue key="positionCurrent">
+      <SubindexedValues index="XAxis">
+        <SubindexedValue subindex="0" value="-4807.83" />
+      </SubindexedValues>
+      <SubindexedValues index="YAxis">
+        <SubindexedValue subindex="0" value="-411.45" />
+      </SubindexedValues>
+      <SubindexedValues index="ZAxis">
+        <SubindexedValue subindex="0" value="1876.4" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="preampFilter" value="Filter750KHz" description="0.75 MHz" />
+    <PVStateValue key="preampGain">
+      <SubindexedValues index="0">
+        <SubindexedValue subindex="0" value="0" description="Ch1" />
+        <SubindexedValue subindex="1" value="0" description="Ch2" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="preampOffset">
+      <SubindexedValues index="0">
+        <SubindexedValue subindex="0" value="19.61" description="Ch1" />
+        <SubindexedValue subindex="1" value="15.69" description="Ch2" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="rastersPerFrame" value="4" />
+    <PVStateValue key="rotation" value="0" />
+    <PVStateValue key="scanLinePeriod" value="0" />
+    <PVStateValue key="sfc_aperture" value="30um pinhole" />
+    <PVStateValue key="sfc_binFactor" value="1" />
+    <PVStateValue key="sfc_channelLaserSelected">
+      <SubindexedValues index="-1">
+        <SubindexedValue subindex="1" value="False" />
+        <SubindexedValue subindex="2" value="False" />
+        <SubindexedValue subindex="3" value="False" />
+        <SubindexedValue subindex="4" value="True" />
+      </SubindexedValues>
+      <SubindexedValues index="0">
+        <SubindexedValue subindex="1" value="False" />
+        <SubindexedValue subindex="2" value="True" />
+        <SubindexedValue subindex="3" value="False" />
+        <SubindexedValue subindex="4" value="False" />
+      </SubindexedValues>
+      <SubindexedValues index="1">
+        <SubindexedValue subindex="1" value="False" />
+        <SubindexedValue subindex="2" value="False" />
+        <SubindexedValue subindex="3" value="False" />
+        <SubindexedValue subindex="4" value="False" />
+      </SubindexedValues>
+      <SubindexedValues index="2">
+        <SubindexedValue subindex="1" value="False" />
+        <SubindexedValue subindex="2" value="False" />
+        <SubindexedValue subindex="3" value="False" />
+        <SubindexedValue subindex="4" value="False" />
+      </SubindexedValues>
+      <SubindexedValues index="3">
+        <SubindexedValue subindex="1" value="False" />
+        <SubindexedValue subindex="2" value="False" />
+        <SubindexedValue subindex="3" value="False" />
+        <SubindexedValue subindex="4" value="False" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="sfc_emissionFilter" value="525/50" />
+    <PVStateValue key="sfc_exposureMode" value="Timed" />
+    <PVStateValue key="sfc_exposureTime" value="80" />
+    <PVStateValue key="sfc_gain">
+      <IndexedValue index="0" value="1" description="Camera 1" />
+    </PVStateValue>
+    <PVStateValue key="sfc_gainMultFactor">
+      <IndexedValue index="0" value="300" description="Camera 1" />
+    </PVStateValue>
+    <PVStateValue key="sfc_galvoMode" value="Normal" />
+    <PVStateValue key="sfc_imagingMode" value="Confocal" />
+    <PVStateValue key="sfc_piezoHalfPeriod" value="0.08" />
+    <PVStateValue key="sfc_readoutPortSetting">
+      <IndexedValue index="0" value="0" description="Camera 1: 10 MHz (EM)" />
+    </PVStateValue>
+    <PVStateValue key="twophotonLaserPower">
+      <IndexedValue index="0" value="0" />
+    </PVStateValue>
+    <PVStateValue key="useInterlacedScanPattern" value="False" />
+    <PVStateValue key="xYStageGridIndex" value="36" />
+    <PVStateValue key="xYStageGridXIndex" value="1" />
+    <PVStateValue key="xYStageGridYIndex" value="6" />
+    <PVStateValue key="yAspectExpansion" value="1" />
+    <PVStateValue key="zDevice" value="0" />
+  </PVStateShard>
+  <Sequence type="ZSeries" cycle="1" time="12:06:24.6410358" xYStageGridDefined="False" xYStageGridNumXPositions="7" xYStageGridNumYPositions="7" xYStageGridOverlapPercentage="15" xYStageGridXOverlap="121.081081081081" xYStageGridYOverlap="121.081081081081">
+    <PVStateShard />
+    <Frame relativeTime="0" absoluteTime="0.419999999999845" index="1" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="0" absoluteTime="0.42" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1927.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="0.740000000000009" absoluteTime="1.15999999999985" index="2" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="0.74" absoluteTime="1.16" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000002.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1927.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="1.50700000000006" absoluteTime="1.92699999999991" index="3" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="1.507" absoluteTime="1.927" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000003.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1927.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="2.24400000000014" absoluteTime="2.66399999999999" index="4" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="2.244" absoluteTime="2.664" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000004.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1926.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="2.97800000000007" absoluteTime="3.39799999999991" index="5" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="2.978" absoluteTime="3.398" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000005.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1926.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="3.71600000000012" absoluteTime="4.13599999999997" index="6" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="3.716" absoluteTime="4.136" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000006.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806891178398975" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1926.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="4.452" absoluteTime="4.87199999999984" index="7" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="4.452" absoluteTime="4.872" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000007.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1925.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="5.18600000000015" absoluteTime="5.60599999999999" index="8" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="5.186" absoluteTime="5.606" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000008.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1925.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="5.97900000000004" absoluteTime="6.39899999999989" index="9" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="5.979" absoluteTime="6.399" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000009.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.080691226044397" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1925.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="6.73800000000006" absoluteTime="7.1579999999999" index="10" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="6.738" absoluteTime="7.158" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000010.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1925.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="7.47299999999996" absoluteTime="7.8929999999998" index="11" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="7.473" absoluteTime="7.893" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000011.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1924.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="8.21000000000004" absoluteTime="8.62999999999988" index="12" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="8.21" absoluteTime="8.63" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000012.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1924.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="8.94399999999996" absoluteTime="9.36399999999981" index="13" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="8.944" absoluteTime="9.364" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000013.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1924.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="9.68100000000004" absoluteTime="10.1009999999999" index="14" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="9.681" absoluteTime="10.101" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000014.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1923.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="10.4180000000001" absoluteTime="10.838" index="15" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="10.418" absoluteTime="10.838" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000015.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1923.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="11.1580000000001" absoluteTime="11.578" index="16" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="11.158" absoluteTime="11.578" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000016.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1923.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="11.904" absoluteTime="12.3239999999998" index="17" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="11.904" absoluteTime="12.324" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000017.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1922.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="12.6790000000001" absoluteTime="13.0989999999999" index="18" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="12.679" absoluteTime="13.099" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000018.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806285822535562" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1922.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="13.423" absoluteTime="13.8429999999998" index="19" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="13.423" absoluteTime="13.843" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000019.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1922.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="14.1590000000001" absoluteTime="14.579" index="20" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="14.159" absoluteTime="14.579" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000020.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1922.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="14.895" absoluteTime="15.3149999999998" index="21" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="14.895" absoluteTime="15.315" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000021.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1921.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="15.6310000000001" absoluteTime="16.0509999999999" index="22" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="15.631" absoluteTime="16.051" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000022.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1921.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="16.366" absoluteTime="16.7859999999998" index="23" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="16.366" absoluteTime="16.786" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000023.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1921.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="17.1010000000001" absoluteTime="17.521" index="24" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="17.101" absoluteTime="17.521" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000024.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1920.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="17.8420000000001" absoluteTime="18.2619999999999" index="25" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="17.842" absoluteTime="18.262" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000025.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806273775652708" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1920.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="18.5720000000001" absoluteTime="18.992" index="26" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="18.572" absoluteTime="18.992" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000026.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806915272164683" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1920.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="19.3490000000002" absoluteTime="19.769" index="27" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="19.349" absoluteTime="19.769" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000027.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1919.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="20.0910000000001" absoluteTime="20.511" index="28" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="20.091" absoluteTime="20.511" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000028.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1919.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="20.8420000000001" absoluteTime="21.2619999999999" index="29" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="20.842" absoluteTime="21.262" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000029.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1919.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="21.5800000000002" absoluteTime="22" index="30" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="21.58" absoluteTime="22" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000030.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1919.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="22.3150000000001" absoluteTime="22.7349999999999" index="31" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="22.315" absoluteTime="22.735" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000031.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1918.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="23.0510000000002" absoluteTime="23.471" index="32" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="23.051" absoluteTime="23.471" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000032.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1918.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="23.7860000000001" absoluteTime="24.2059999999999" index="33" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="23.786" absoluteTime="24.206" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000033.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1918.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="24.528" absoluteTime="24.9479999999999" index="34" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="24.528" absoluteTime="24.948" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000034.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1917.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="25.2740000000001" absoluteTime="25.694" index="35" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="25.274" absoluteTime="25.694" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000035.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806891178398975" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1917.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="26.049" absoluteTime="26.4689999999998" index="36" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="26.049" absoluteTime="26.469" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000036.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1917.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="26.7930000000001" absoluteTime="27.213" index="37" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="26.793" absoluteTime="27.213" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000037.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1916.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="27.527" absoluteTime="27.9469999999999" index="38" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="27.527" absoluteTime="27.947" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000038.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806285822535562" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1916.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="28.2640000000001" absoluteTime="28.684" index="39" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="28.264" absoluteTime="28.684" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000039.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.080691226044397" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1916.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="29" absoluteTime="29.4199999999998" index="40" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="29" absoluteTime="29.42" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000040.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1916.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="29.7360000000001" absoluteTime="30.1559999999999" index="41" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="29.736" absoluteTime="30.156" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000041.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1915.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="30.47" absoluteTime="30.8899999999999" index="42" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="30.47" absoluteTime="30.89" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000042.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1915.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="31.212" absoluteTime="31.6319999999998" index="43" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="31.212" absoluteTime="31.632" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000043.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806282810814848" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1915.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="31.941" absoluteTime="32.3609999999999" index="44" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="31.941" absoluteTime="32.361" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000044.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1914.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="32.722" absoluteTime="33.1419999999998" index="45" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="32.722" absoluteTime="33.142" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000045.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.080691226044397" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1914.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="33.461" absoluteTime="33.8809999999999" index="46" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="33.461" absoluteTime="33.881" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000046.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1914.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="34.1970000000001" absoluteTime="34.617" index="47" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="34.197" absoluteTime="34.617" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000047.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1913.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="34.933" absoluteTime="35.3529999999998" index="48" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="34.933" absoluteTime="35.353" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000048.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1913.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="35.6680000000001" absoluteTime="36.088" index="49" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="35.668" absoluteTime="36.088" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000049.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1913.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="36.404" absoluteTime="36.8239999999998" index="50" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="36.404" absoluteTime="36.824" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000050.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806279799094135" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1913.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="37.1410000000001" absoluteTime="37.5609999999999" index="51" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="37.141" absoluteTime="37.561" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000051.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1912.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="37.885" absoluteTime="38.3049999999998" index="52" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="37.885" absoluteTime="38.305" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000052.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1912.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="38.625" absoluteTime="39.0449999999998" index="53" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="38.625" absoluteTime="39.045" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000053.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1912.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="39.4070000000002" absoluteTime="39.827" index="54" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="39.407" absoluteTime="39.827" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000054.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1911.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="40.144" absoluteTime="40.5639999999999" index="55" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="40.144" absoluteTime="40.564" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000055.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1911.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="40.8980000000001" absoluteTime="41.318" index="56" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="40.898" absoluteTime="41.318" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000056.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806891178398975" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1911.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="41.633" absoluteTime="42.0529999999999" index="57" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="41.633" absoluteTime="42.053" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000057.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1910.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="42.3690000000001" absoluteTime="42.789" index="58" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="42.369" absoluteTime="42.789" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000058.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1910.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="43.105" absoluteTime="43.5249999999999" index="59" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="43.105" absoluteTime="43.525" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000059.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1910.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="43.8410000000001" absoluteTime="44.261" index="60" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="43.841" absoluteTime="44.261" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000060.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806888166678262" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1910.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="44.5820000000001" absoluteTime="45.002" index="61" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="44.582" absoluteTime="45.002" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000061.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1909.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="45.328" absoluteTime="45.7479999999998" index="62" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="45.328" absoluteTime="45.748" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000062.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1909.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="46.1200000000001" absoluteTime="46.54" index="63" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="46.12" absoluteTime="46.54" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000063.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1909.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="46.8800000000001" absoluteTime="47.3" index="64" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="46.88" absoluteTime="47.3" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000064.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1908.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="47.616" absoluteTime="48.0359999999998" index="65" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="47.616" absoluteTime="48.036" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000065.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1908.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="48.3510000000001" absoluteTime="48.771" index="66" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="48.351" absoluteTime="48.771" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000066.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806915272164683" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1908.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="49.085" absoluteTime="49.5049999999999" index="67" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="49.085" absoluteTime="49.505" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000067.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1907.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="49.8220000000001" absoluteTime="50.242" index="68" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="49.822" absoluteTime="50.242" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000068.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1907.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="50.556" absoluteTime="50.9759999999999" index="69" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="50.556" absoluteTime="50.976" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000069.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806915272164683" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1907.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="51.299" absoluteTime="51.7189999999998" index="70" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="51.299" absoluteTime="51.719" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000070.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806891178398975" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1907.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="52.046" absoluteTime="52.4659999999999" index="71" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="52.046" absoluteTime="52.466" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000071.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1906.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="52.825" absoluteTime="53.2449999999999" index="72" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="52.825" absoluteTime="53.245" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000072.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806927319047537" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1906.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="53.5650000000001" absoluteTime="53.9849999999999" index="73" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="53.565" absoluteTime="53.985" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000073.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806285822535562" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1906.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="54.299" absoluteTime="54.7189999999998" index="74" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="54.299" absoluteTime="54.719" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000074.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1905.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="55.0350000000001" absoluteTime="55.4549999999999" index="75" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="55.035" absoluteTime="55.455" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000075.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1905.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="55.77" absoluteTime="56.1899999999998" index="76" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="55.77" absoluteTime="56.19" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000076.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806282810814848" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1905.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="56.5070000000001" absoluteTime="56.9269999999999" index="77" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="56.507" absoluteTime="56.927" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000077.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1904.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="57.24" absoluteTime="57.6599999999999" index="78" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="57.24" absoluteTime="57.66" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000078.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806885154957548" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1904.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="57.9840000000002" absoluteTime="58.404" index="79" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="57.984" absoluteTime="58.404" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000079.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1904.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="58.73" absoluteTime="59.1499999999999" index="80" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="58.73" absoluteTime="59.15" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000080.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1904.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="59.5220000000002" absoluteTime="59.942" index="81" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="59.522" absoluteTime="59.942" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000081.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1903.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="60.2630000000001" absoluteTime="60.683" index="82" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="60.263" absoluteTime="60.683" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000082.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1903.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="61.001" absoluteTime="61.4209999999998" index="83" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="61.001" absoluteTime="61.421" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000083.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1903.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="61.7360000000001" absoluteTime="62.1559999999999" index="84" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="61.736" absoluteTime="62.156" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000084.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806279799094135" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1902.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="62.498" absoluteTime="62.9179999999999" index="85" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="62.498" absoluteTime="62.918" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000085.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1902.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="63.24" absoluteTime="63.6599999999999" index="86" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="63.24" absoluteTime="63.66" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000086.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1902.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="63.9750000000001" absoluteTime="64.395" index="87" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="63.975" absoluteTime="64.395" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000087.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806276787373421" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1901.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="64.71" absoluteTime="65.1299999999999" index="88" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="64.71" absoluteTime="65.13" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000088.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1901.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="65.4460000000001" absoluteTime="65.866" index="89" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="65.446" absoluteTime="65.866" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000089.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1901.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="66.223" absoluteTime="66.6429999999998" index="90" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="66.223" absoluteTime="66.643" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000090.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1901.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="66.9660000000001" absoluteTime="67.386" index="91" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="66.966" absoluteTime="67.386" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000091.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1900.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="67.6990000000001" absoluteTime="68.1189999999999" index="92" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="67.699" absoluteTime="68.119" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000092.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.080691226044397" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1900.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="68.4360000000001" absoluteTime="68.856" index="93" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="68.436" absoluteTime="68.856" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000093.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1900.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="69.173" absoluteTime="69.5929999999998" index="94" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="69.173" absoluteTime="69.593" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000094.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1899.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="69.9080000000001" absoluteTime="70.328" index="95" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="69.908" absoluteTime="70.328" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000095.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1899.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="70.644" absoluteTime="71.0639999999999" index="96" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="70.644" absoluteTime="71.064" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000096.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806279799094135" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1899.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="71.396" absoluteTime="71.8159999999998" index="97" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="71.396" absoluteTime="71.816" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000097.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806885154957548" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1898.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="72.1310000000001" absoluteTime="72.5509999999999" index="98" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="72.131" absoluteTime="72.551" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000098.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1898.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="72.9000000000001" absoluteTime="73.3199999999999" index="99" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="72.9" absoluteTime="73.32" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000099.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806285822535562" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1898.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="73.635" absoluteTime="74.0549999999998" index="100" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="73.635" absoluteTime="74.055" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000100.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1898.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="74.3710000000001" absoluteTime="74.7909999999999" index="101" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="74.371" absoluteTime="74.791" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000101.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1897.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="75.104" absoluteTime="75.5239999999999" index="102" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="75.104" absoluteTime="75.524" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000102.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1897.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="75.8400000000001" absoluteTime="76.26" index="103" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="75.84" absoluteTime="76.26" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000103.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806273775652708" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1897.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="76.575" absoluteTime="76.9949999999999" index="104" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="76.575" absoluteTime="76.995" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000104.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1896.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="77.3120000000001" absoluteTime="77.732" index="105" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="77.312" absoluteTime="77.732" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000105.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1896.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="78.0930000000001" absoluteTime="78.5129999999999" index="106" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="78.093" absoluteTime="78.513" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000106.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1896.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="78.8320000000001" absoluteTime="79.252" index="107" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="78.832" absoluteTime="79.252" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000107.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806273775652708" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1895.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="79.568" absoluteTime="79.9879999999998" index="108" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="79.568" absoluteTime="79.988" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000108.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806282810814848" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1895.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="80.319" absoluteTime="80.7389999999998" index="109" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="80.319" absoluteTime="80.739" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000109.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1895.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="81.0550000000001" absoluteTime="81.4749999999999" index="110" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="81.055" absoluteTime="81.475" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000110.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1895.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="81.7910000000002" absoluteTime="82.211" index="111" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="81.791" absoluteTime="82.211" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000111.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1894.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="82.527" absoluteTime="82.9469999999999" index="112" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="82.527" absoluteTime="82.947" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000112.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.080691226044397" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1894.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="83.2620000000002" absoluteTime="83.682" index="113" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="83.262" absoluteTime="83.682" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000113.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1894.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="83.9970000000001" absoluteTime="84.4169999999999" index="114" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="83.997" absoluteTime="84.417" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000114.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806918283885397" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1893.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="84.807" absoluteTime="85.2269999999999" index="115" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="84.807" absoluteTime="85.227" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000115.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1893.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="85.5650000000001" absoluteTime="85.9849999999999" index="116" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="85.565" absoluteTime="85.985" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000116.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806885154957548" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1893.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="86.3150000000001" absoluteTime="86.7349999999999" index="117" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="86.315" absoluteTime="86.735" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000117.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1892.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="87.0520000000001" absoluteTime="87.472" index="118" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="87.052" absoluteTime="87.472" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000118.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1892.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="87.789" absoluteTime="88.2089999999998" index="119" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="87.789" absoluteTime="88.209" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000119.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1892.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="88.5230000000001" absoluteTime="88.943" index="120" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="88.523" absoluteTime="88.943" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000120.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1892.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="89.259" absoluteTime="89.6789999999999" index="121" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="89.259" absoluteTime="89.679" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000121.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1891.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="89.9940000000001" absoluteTime="90.414" index="122" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="89.994" absoluteTime="90.414" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000122.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1891.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="90.731" absoluteTime="91.1509999999998" index="123" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="90.731" absoluteTime="91.151" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000123.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1891.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="91.501" absoluteTime="91.9209999999998" index="124" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="91.501" absoluteTime="91.921" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000124.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1890.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="92.2340000000002" absoluteTime="92.654" index="125" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="92.234" absoluteTime="92.654" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000125.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1890.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="92.9680000000001" absoluteTime="93.3879999999999" index="126" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="92.968" absoluteTime="93.388" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000126.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1890.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="93.7050000000002" absoluteTime="94.125" index="127" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="93.705" absoluteTime="94.125" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000127.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806918283885397" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1889.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="94.441" absoluteTime="94.8609999999999" index="128" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="94.441" absoluteTime="94.861" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000128.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1889.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="95.175" absoluteTime="95.5949999999998" index="129" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="95.175" absoluteTime="95.595" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000129.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1889.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="95.912" absoluteTime="96.3319999999999" index="130" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="95.912" absoluteTime="96.332" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000130.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1889.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="96.6900000000001" absoluteTime="97.1099999999999" index="131" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="96.69" absoluteTime="97.11" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000131.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1888.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="97.431" absoluteTime="97.8509999999999" index="132" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="97.431" absoluteTime="97.851" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000132.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1888.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="98.182" absoluteTime="98.6019999999999" index="133" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="98.182" absoluteTime="98.602" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000133.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1888.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="98.9190000000001" absoluteTime="99.3389999999999" index="134" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="98.919" absoluteTime="99.339" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000134.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1887.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="99.654" absoluteTime="100.074" index="135" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="99.654" absoluteTime="100.074" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000135.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1887.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="100.39" absoluteTime="100.81" index="136" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="100.39" absoluteTime="100.81" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000136.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1887.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="101.126" absoluteTime="101.546" index="137" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="101.126" absoluteTime="101.546" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000137.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1886.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="101.869" absoluteTime="102.289" index="138" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="101.869" absoluteTime="102.289" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000138.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1886.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="102.613" absoluteTime="103.033" index="139" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="102.613" absoluteTime="103.033" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000139.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1886.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="103.426" absoluteTime="103.846" index="140" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="103.426" absoluteTime="103.846" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000140.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1886.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="104.18" absoluteTime="104.6" index="141" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="104.18" absoluteTime="104.6" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000141.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1885.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="104.915" absoluteTime="105.335" index="142" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="104.915" absoluteTime="105.335" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000142.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.080691226044397" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1885.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="105.653" absoluteTime="106.073" index="143" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="105.653" absoluteTime="106.073" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000143.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806285822535562" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1885.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="106.387" absoluteTime="106.807" index="144" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="106.387" absoluteTime="106.807" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000144.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1884.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="107.124" absoluteTime="107.544" index="145" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="107.124" absoluteTime="107.544" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000145.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1884.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="107.859" absoluteTime="108.279" index="146" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="107.859" absoluteTime="108.279" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000146.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1884.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="108.601" absoluteTime="109.021" index="147" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="108.601" absoluteTime="109.021" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000147.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806288834256275" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1883.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="109.346" absoluteTime="109.766" index="148" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="109.346" absoluteTime="109.766" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000148.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1883.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="110.127" absoluteTime="110.547" index="149" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="110.127" absoluteTime="110.547" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000149.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1883.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="110.864" absoluteTime="111.284" index="150" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="110.864" absoluteTime="111.284" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000150.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1883.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="111.601" absoluteTime="112.021" index="151" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="111.601" absoluteTime="112.021" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000151.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806894190119689" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1882.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="112.338" absoluteTime="112.758" index="152" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="112.338" absoluteTime="112.758" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000152.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1882.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="113.073" absoluteTime="113.493" index="153" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="113.073" absoluteTime="113.493" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000153.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1882.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="113.861" absoluteTime="114.281" index="154" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="113.861" absoluteTime="114.281" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000154.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1881.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="114.692" absoluteTime="115.112" index="155" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="114.692" absoluteTime="115.112" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000155.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1881.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="115.493" absoluteTime="115.913" index="156" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="115.493" absoluteTime="115.913" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000156.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806891178398975" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1881.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="116.291" absoluteTime="116.711" index="157" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="116.291" absoluteTime="116.711" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000157.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1880.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="117.091" absoluteTime="117.511" index="158" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="117.091" absoluteTime="117.511" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000158.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1880.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="117.875" absoluteTime="118.295" index="159" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="117.875" absoluteTime="118.295" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000159.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1880.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="118.674" absoluteTime="119.094" index="160" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="118.674" absoluteTime="119.094" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000160.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806270763931994" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1880.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="119.457" absoluteTime="119.877" index="161" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="119.457" absoluteTime="119.877" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000161.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1879.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="120.242" absoluteTime="120.662" index="162" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="120.242" absoluteTime="120.662" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000162.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1879.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="121.041" absoluteTime="121.461" index="163" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="121.041" absoluteTime="121.461" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000163.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1879.15" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="121.824" absoluteTime="122.244" index="164" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="121.824" absoluteTime="122.244" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000164.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1878.85" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="122.624" absoluteTime="123.044" index="165" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="122.624" absoluteTime="123.044" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000165.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1878.55" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="123.424" absoluteTime="123.844" index="166" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="123.424" absoluteTime="123.844" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000166.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1878.25" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="124.238" absoluteTime="124.658" index="167" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="124.238" absoluteTime="124.658" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000167.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806909248723256" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1877.95" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="125.023" absoluteTime="125.443" index="168" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="125.023" absoluteTime="125.443" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000168.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1877.65" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="125.822" absoluteTime="126.242" index="169" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="125.822" absoluteTime="126.242" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000169.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806897201840402" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1877.35" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="126.607" absoluteTime="127.027" index="170" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="126.607" absoluteTime="127.027" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000170.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806906237002543" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1877.05" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="127.407" absoluteTime="127.827" index="171" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="127.407" absoluteTime="127.827" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000171.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806900213561116" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1876.75" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+    <Frame relativeTime="128.206" absoluteTime="128.626" index="172" parameterSet="CurrentSettings">
+      <File channel="1" channelName="Ch1" relativeTime="128.206" absoluteTime="128.626" filename="ZSeries-02142021-1119-006_Cycle00001_Ch1_000172.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard>
+        <PVStateValue key="framePeriod" value="0.0806903225281829" />
+        <PVStateValue key="positionCurrent">
+          <SubindexedValues index="XAxis">
+            <SubindexedValue subindex="0" value="-4807.83" />
+          </SubindexedValues>
+          <SubindexedValues index="YAxis">
+            <SubindexedValue subindex="0" value="-411.45" />
+          </SubindexedValues>
+          <SubindexedValues index="ZAxis">
+            <SubindexedValue subindex="0" value="1876.45" />
+          </SubindexedValues>
+        </PVStateValue>
+      </PVStateShard>
+    </Frame>
+  </Sequence>
+</PVScan>
