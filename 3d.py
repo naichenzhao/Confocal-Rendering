@@ -1,26 +1,23 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
+import meshlib.mrmeshpy as mr
+import os
+settings = mr.LoadingTiffSettings()
 
+# load images from specified directory
+img_dir = os.path.join(os.getcwd(), 'new_images')
+settings.dir = img_dir
 
-# Define the 3D Gaussian function
-def gaussian_3d(x, y, z, mu=0, sigma=1):
-    return np.exp(-((x-mu)**2 + (y-mu)**2 + (z-mu)**2) / (2*sigma**2))
+# specifiy size of 3D image element
+settings.voxelSize = mr.Vector3f(0.1, 0.1, 0.5)
 
+#create voxel object from the series of images
+volume = mr.loadTiffDir(settings)
 
-# Generate a 3D grid
-x, y, z = np.meshgrid(np.linspace(-1, 1, 30),
-                      np.linspace(-1, 1, 30),
-                      np.linspace(-1, 1, 30))
+#define ISO value to build surface
+iso=127
 
-# Apply the Gaussian function
-data = gaussian_3d(x, y, z)
+#convert voxel object to mesh
+mesh=mr.gridToMesh(volume, iso)
 
-
-# Take a slice along the x-axis
-slice = data[data.shape[0] // 2, :, :]
-
-
-plt.imshow(slice, interpolation='nearest', cmap='viridis')
-plt.colorbar()
-plt.show()
+#save mesh to .stl file
+res_dir = os.path.join(os.getcwd(), 'out.stl')
+mr.saveMesh(mesh, res_dir)
