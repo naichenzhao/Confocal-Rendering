@@ -8,6 +8,8 @@ import cv2 as cv
 from aspose.threed.utilities import Vector3
 from aspose.threed.entities import PolygonModifier, Box
 from aspose.threed import Scene
+from skimage.transform import probabilistic_hough_line
+from skimage import filters
 
 from skimage import *
 import skimage.io as io
@@ -40,7 +42,7 @@ def main():
 
     print('\n----------\n')
 
-    print('Generating 3D model')
+    print('Generating 3D model (this is gonna take a while...)')
     # Use marching cubes to obtain the surface mesh of these ellipsoids
     vertices, triangles = mcubes.marching_cubes(mat, 0)
     mcubes.export_obj(vertices, triangles, "output.obj")
@@ -50,8 +52,8 @@ def main():
     # scene.save("output.stl")
 
 
-    print('Generating Smoothed 3D model')
-    smoothed_mat = mcubes.smooth(mat, sigma = 1)
+    print('Generating Smoothed 3D model (this is gonna also take a while...)')
+    smoothed_mat = mcubes.smooth(mat, sigma = 1.5)
     vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0)
     mcubes.export_obj(vertices, triangles, "output_sm.obj")
 
@@ -72,11 +74,21 @@ def main():
 
 def process_img(name, img):
     thresh = threshold_otsu(img)
-    binary = img > thresh
+    binary = img_as_ubyte(img > thresh)
 
-    edge_sobel = img_as_ubyte(feature.canny(binary, 2))
+    edge_sobel = img_as_ubyte(filters.sobel(binary))
+
+    # # lines = probabilistic_hough_line(edge_sobel, threshold=10, line_length=5,
+    #                              line_gap=3)
+    
+    # for line in lines:
+    #     p0, p1 = line
+    #     plt.plot((p0[0], p1[0]), (p0[1], p1[1]))
+    # plt.imshow(edge_sobel)
+    # plt.show()
+    
     filled_img = img_as_ubyte(binary)
-    io.imsave("new_images/{0}.tif".format(name), filled_img)
+    io.imsave("new_images/{0}.tif".format(name), edge_sobel)
 
     return edge_sobel
 
