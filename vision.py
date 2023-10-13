@@ -14,52 +14,84 @@ from skimage import filters
 from skimage import *
 import skimage.io as io
 from skimage.filters import threshold_otsu
+from skimage.morphology import binary_erosion
 from skimage import feature
+
+
+'''
+Important constants to set:
+    IMAGES_FOLDER: Folder we read images from, We will read all .tif foles from folder
+    IMAGE_THRESHOLD: Intensity threshold. All images below will be ignored
+    SAVE_STL: Extra step of saving to STL file (File is very large!!!)
+
+'''
+
+# Set the constants below:
+IMAGES_FOLDER = 'images'
+IMAGE_THRESHOLD = 40
+SAVE_STL = False
+
 
 
 
 def main():
     print('Reading Images')
-    img_dir = os.path.join(os.getcwd(), 'images')
+
+    # Grab all .tif files from active folder
+    img_dir = os.path.join(os.getcwd(), IMAGES_FOLDER)
     all_files = os.listdir(img_dir)
     files_unsorted = [str(file[:-4]) for file in all_files if file.endswith('.tif')]
     tif_files = sorted(files_unsorted)
     
 
-
+    # Pre-process images before constructing 3D model
     length = len(tif_files)
     mat = np.zeros((512, 512, length+20))
-
     count = 0
     for file in tqdm(tif_files):
+        # Read and import image
         file_name = "{0}.tif".format(file)
         curr_file = os.path.join(img_dir, file_name)
         curr_img = cv.cvtColor(cv.imread(curr_file), cv.COLOR_BGR2GRAY)
 
+        # check if image meets minimum threshold
+        if(np.max(curr_img) < IMAGE_THRESHOLD):
+            continue
+
+        # Process image and add it to the list
         mat[:, :, count+10] = process_img("zlevel_{0}".format(count), curr_img)
         count += 1
     print('Images Processed')
+    print("{0} Images processed out of {1} total".format(count, length))
+
 
     print('\n----------\n')
 
+
+    # Generate obj files of models
+    #   We use marching cubes to obtain the surface mesh of these ellipsoids
     print('Generating 3D model (this is gonna take a while...)')
-    # Use marching cubes to obtain the surface mesh of these ellipsoids
     vertices, triangles = mcubes.marching_cubes(mat, 0)
     mcubes.export_obj(vertices, triangles, "output.obj")
-
-    # print('Converting Model to stl')
-    # scene = Scene.from_file("output.obj")
-    # scene.save("output.stl")
-
 
     print('Generating Smoothed 3D model (this is gonna also take a while...)')
     smoothed_mat = mcubes.smooth(mat, sigma = 1.5)
     vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0)
     mcubes.export_obj(vertices, triangles, "output_sm.obj")
 
-    # print('Converting Smoothed Model to stl')
-    # scene = Scene.from_file("tmp/output_sm.obj")
-    # scene.save("output_sm.stl")
+
+    print('\n----------\n')
+
+
+    # Convert obj files to stl (Only does it if enabled)
+    # if SAVE_STL:
+    #     print('Converting Model to stl')
+    #     scene = Scene.from_file("output.obj")
+    #     scene.save("output.stl")
+
+    #     print('Converting Smoothed Model to stl')
+    #     scene = Scene.from_file("tmp/output_sm.obj")
+    #     scene.save("output_sm.stl")
 
 
     print('Program Finished')
@@ -73,26 +105,24 @@ def main():
     
 
 def process_img(name, img):
+    # Use an otsu filter to remove background
     thresh = threshold_otsu(img)
-    binary = img_as_ubyte(img > thresh)
+    binary = img > thresh
 
-    edge_sobel = img_as_ubyte(filters.sobel(binary))
+    # Erode image
+    footprint=np.ones((3, 3))
+    eroded = binary_erosion(binary, footprint)
 
-    # # lines = probabilistic_hough_line(edge_sobel, threshold=10, line_length=5,
-    #                              line_gap=3)
+    # Apply a strobel edge detection
+    edge_sobel = img_as_ubyte(filters.sobel(eroded))
     
-    # for line in lines:
-    #     p0, p1 = line
-    #     plt.plot((p0[0], p1[0]), (p0[1], p1[1]))
-    # plt.imshow(edge_sobel)
-    # plt.show()
-    
-    filled_img = img_as_ubyte(binary)
+    # Save image and return
     io.imsave("new_images/{0}.tif".format(name), edge_sobel)
-
     return edge_sobel
 
 
 
 if __name__ == '__main__':
+
+    # Run main at startup
     main()
