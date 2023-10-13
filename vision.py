@@ -17,11 +17,19 @@ from skimage.filters import threshold_otsu
 from skimage.morphology import binary_erosion
 from skimage import feature
 
+import pymesh
+from multiprocessing import Pool
+
+
 
 '''
 Important constants to set:
     IMAGES_FOLDER: Folder we read images from, We will read all .tif foles from folder
     IMAGE_THRESHOLD: Intensity threshold. All images below will be ignored
+
+    E_CONST: Value of kernal size for erosion
+
+
     SAVE_STL: Extra step of saving to STL file (File is very large!!!)
 
 '''
@@ -29,6 +37,9 @@ Important constants to set:
 # Set the constants below:
 IMAGES_FOLDER = 'images'
 IMAGE_THRESHOLD = 40
+
+E_CONST = 3
+
 SAVE_STL = False
 
 
@@ -68,18 +79,28 @@ def main():
     print('\n----------\n')
 
 
-    # Generate obj files of models
-    #   We use marching cubes to obtain the surface mesh of these ellipsoids
-    print('Generating 3D model (this is gonna take a while...)')
-    vertices, triangles = mcubes.marching_cubes(mat, 0)
-    mcubes.export_obj(vertices, triangles, "output.obj")
+    # We are just generating the smoothed mode, the standard one is ignored
+        # Generate obj files of models
+        #   We use marching cubes to obtain the surface mesh of these ellipsoids
+        # print('Generating 3D model (this is gonna take a while...)')
+        # vertices, triangles = mcubes.marching_cubes(mat, 0)
+        # mcubes.export_obj(vertices, triangles, "output.obj")
 
-    print('Generating Smoothed 3D model (this is gonna also take a while...)')
+
+    print('Generating Smoothed 3D model (this is gonna take a while...)')
+    # Run marching cubes
     smoothed_mat = mcubes.smooth(mat, sigma = 1.5)
     vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0)
+
+    # # Scale Marching Cubes
+    scale = count/int(np.max(vertices[:,0]) - np.min(vertices[:,0]))
+    vertices[:,0] = vertices[:,0] * scale
+    vertices[:,1] = vertices[:,1] * scale
+
+    # Export obj file
     mcubes.export_obj(vertices, triangles, "output_sm.obj")
 
-
+    
     print('\n----------\n')
 
 
@@ -99,10 +120,6 @@ def main():
 
 
 
-    
-
-
-    
 
 def process_img(name, img):
     # Use an otsu filter to remove background
@@ -110,7 +127,7 @@ def process_img(name, img):
     binary = img > thresh
 
     # Erode image
-    footprint=np.ones((3, 3))
+    footprint=np.ones((E_CONST, E_CONST))
     eroded = binary_erosion(binary, footprint)
 
     # Apply a strobel edge detection
