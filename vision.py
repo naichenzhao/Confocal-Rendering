@@ -42,7 +42,7 @@ Important constants to set:
 IMAGES_FOLDER = 'images'
 IMAGE_THRESHOLD = 40
 
-E_CONST = 9
+E_CONST = 6
 
 SAVE_STL = False
 
@@ -96,7 +96,7 @@ def main():
     print('Generating Smoothed 3D model (this is gonna take a while...)')
     # Run marching cubes
     smoothed_mat = mcubes.smooth(mat, sigma = 1.5)
-    vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0.05)
+    vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0)
 
     # # Scale Marching Cubes
     scale = count/int(np.max(vertices[:,0]) - np.min(vertices[:,0]))
@@ -133,7 +133,7 @@ def process_img(name, img):
     binary = img > thresh
 
     # Perform closing first
-    footprint_close=np.ones((3,3))
+    footprint_close=np.ones((7,7))
     closed = closing(binary, footprint_close)
 
     # Erode image
