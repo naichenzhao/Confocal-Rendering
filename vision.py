@@ -13,9 +13,13 @@ from skimage import filters
 
 from skimage import *
 import skimage.io as io
-from skimage.filters import threshold_otsu
+from skimage.filters import *
 from skimage.morphology import binary_erosion
+from skimage.morphology import (erosion, dilation, opening, closing,  # noqa
+                                white_tophat)
+from skimage.morphology import black_tophat, skeletonize, convex_hull_image  # noqa
 from skimage import feature
+from scipy.ndimage.filters import gaussian_filter
 
 import pymesh
 from multiprocessing import Pool
@@ -38,7 +42,7 @@ Important constants to set:
 IMAGES_FOLDER = 'images'
 IMAGE_THRESHOLD = 40
 
-E_CONST = 3
+E_CONST = 9
 
 SAVE_STL = False
 
@@ -72,6 +76,8 @@ def main():
         # Process image and add it to the list
         mat[:, :, count+10] = process_img("zlevel_{0}".format(count), curr_img)
         count += 1
+
+
     print('Images Processed')
     print("{0} Images processed out of {1} total".format(count, length))
 
@@ -82,15 +88,15 @@ def main():
     # We are just generating the smoothed mode, the standard one is ignored
         # Generate obj files of models
         #   We use marching cubes to obtain the surface mesh of these ellipsoids
-        # print('Generating 3D model (this is gonna take a while...)')
-        # vertices, triangles = mcubes.marching_cubes(mat, 0)
-        # mcubes.export_obj(vertices, triangles, "output.obj")
+    # print('Generating 3D model (this is gonna take a while...)')
+    # vertices, triangles = mcubes.marching_cubes(mat, 0)
+    # mcubes.export_obj(vertices, triangles, "output.obj")
 
 
     print('Generating Smoothed 3D model (this is gonna take a while...)')
     # Run marching cubes
     smoothed_mat = mcubes.smooth(mat, sigma = 1.5)
-    vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0)
+    vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0.05)
 
     # # Scale Marching Cubes
     scale = count/int(np.max(vertices[:,0]) - np.min(vertices[:,0]))
@@ -123,19 +129,23 @@ def main():
 
 def process_img(name, img):
     # Use an otsu filter to remove background
-    thresh = threshold_otsu(img)
+    thresh =  threshold_yen(img)
     binary = img > thresh
 
-    # Erode image
-    footprint=np.ones((E_CONST, E_CONST))
-    eroded = binary_erosion(binary, footprint)
+    # Perform closing first
+    footprint_close=np.ones((3,3))
+    closed = closing(binary, footprint_close)
 
+    # Erode image
+    footprint = np.ones((E_CONST, E_CONST))
+    eroded = dilation(skeletonize(closed == 1), footprint)
+    
     # Apply a strobel edge detection
-    edge_sobel = img_as_ubyte(filters.sobel(eroded))
+    # edge_sobel = img_as_ubyte(filters.sobel(eroded))
     
     # Save image and return
-    io.imsave("new_images/{0}.tif".format(name), edge_sobel)
-    return edge_sobel
+    cv.imwrite("new_images/{0}.tif".format(name), img_as_ubyte(eroded))
+    return eroded
 
 
 
