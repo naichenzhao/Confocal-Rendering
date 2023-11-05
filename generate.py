@@ -6,16 +6,8 @@ import mcubes
 import cv2 as cv
 
 from skimage import *
-import skimage.io as io
 from skimage.filters import *
 from skimage.morphology import *
-from skimage.morphology import skeletonize
-from skimage import feature
-
-import pymesh
-from multiprocessing import Pool
-
-
 
 '''
 Important constants to set:
@@ -53,16 +45,16 @@ def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-in_folder', '-i', type=str, default='images', 
-                        help= 'Input folder to read all .tif files from'
+                        help = 'Input folder to read all .tif files from'
     )
     parser.add_argument('-out_folder', '-o', type=str, default='processed_images', 
-                        help= 'Output folder to save post-processed images to'
+                        help = 'Output folder to save post-processed images to'
     )
     parser.add_argument('-threshold', '-t', type=int, default=40, 
-                        help= 'Image threshold. If max value from an image does not exceed this, the image is thrown out'
+                        help = 'Image threshold. If max value from an image does not exceed this, the image is thrown out'
     )
     parser.add_argument('-filename', '-f', type=str, default='structure', 
-                        help= 'Name for the .obj output file'
+                        help = 'Name for the .obj output file'
     )
     args = parser.parse_args()
 
