@@ -7,6 +7,7 @@ import cv2 as cv
 
 from skimage import *
 from skimage.filters import *
+from skimage.filters import threshold_otsu
 from skimage.morphology import *
 
 '''
@@ -31,7 +32,8 @@ Structure Generation Pipeline:
 
 # Set the constants below:
 CLOSE_CONST = 7
-DIALATE_CONST = 6
+SK_DIALATE_CONST = 6 
+EROSION_CONST = 2
 
 
 # Main function
@@ -56,6 +58,9 @@ def main():
     parser.add_argument('-filename', '-f', type=str, default='structure', 
                         help = 'Name for the .obj output file'
     )
+    parser.add_argument('-skeletonize', '-s', type=bool, default=False, 
+                        help = 'Whether we want to skeletonize the model. Set False by default'
+    )
     args = parser.parse_args()
 
     images_folder = args.in_folder
@@ -63,6 +68,8 @@ def main():
 
     image_threshold = args.threshold
     output_name = args.filename
+    
+    use_sk = args.skeletonize
 
 
     # =========================================
@@ -71,7 +78,7 @@ def main():
     print('Reading Images')
 
     # Process images
-    struct_matrix, length = process(images_folder, output_folder, image_threshold)
+    struct_matrix, length = process(images_folder, output_folder, image_threshold, use_sk)
 
     print('\n----------\n')
 
@@ -107,7 +114,7 @@ def generate(matrx, length, name):
 
 
 # Process imaged from images folder
-def process(in_folder, out_folder, threshold):
+def process(in_folder, out_folder, threshold, use_sk):
     print('   ... Grabbing images from input folder: {0}'.format(in_folder))
 
     # Grab all .tif files from active folder
@@ -139,7 +146,11 @@ def process(in_folder, out_folder, threshold):
             continue
 
         # Process image and add it to the list
-        processed_image = process_img(curr_img)
+        if use_sk:
+            processed_image = process_img_sk(curr_img)
+        else:
+            processed_image = process_img(curr_img)
+        
         mat[:, :, count+10] = processed_image
 
         # Write image into output file
@@ -153,7 +164,7 @@ def process(in_folder, out_folder, threshold):
 
 
 # Code from processing a simgular image
-def process_img(img):
+def process_img_sk(img):
     # Use an yen filter to remove background 
     #   (Initially I tried otsu, yen seems better from what I tested)
     thresh =  threshold_yen(img)
@@ -164,11 +175,22 @@ def process_img(img):
     closed = closing(binary, footprint_close)
 
     # Erode image
-    footprint = np.ones((DIALATE_CONST, DIALATE_CONST))
+    footprint = np.ones((SK_DIALATE_CONST, SK_DIALATE_CONST))
     eroded = dilation(skeletonize(closed == 1), footprint)
     
     # Return image
     return img_as_ubyte(eroded)
+
+def process_img(img):
+    thresh = threshold_yen(img)
+    binary = img_as_ubyte(img > thresh)
+    
+    footprint=np.ones((EROSION_CONST, EROSION_CONST))
+    eroded = binary_erosion(binary, footprint)
+
+    edge_sobel = img_as_ubyte(sobel(eroded))
+
+    return edge_sobel
 
 
 if __name__ == '__main__':
