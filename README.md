@@ -25,6 +25,7 @@ The 3D model will be saced in the main directory into `structure.obj`.
 - ``-out_folder`` specifies the directory to write post-processed images to. It is set to `processed_images` by default.
 -  ``-threshold`` specifies the image threshold. If the max intensity value from an image is less than this value, we will skip processing that image. Set to 40 by default.
 -  ``-filename`` specifies the file name of the output .obj file. It is set to `structure` by default.
+-  ``-skeletonize`` dicattes whether we want to dkeletonize and re-dialate the model. Can normalize line widths but doesnt always work. It is set to `False` by default.
 
 
 ---
@@ -41,8 +42,9 @@ The image processing uses the scikit-image machine vision library. The processin
 
 1. `threshold_yen()` to differentiate the structure from the background of the image. Initially I tried using Otsu thresholding, but in the end, it seemed Yen worked better.
 2. `closing()` function to help join any small gaps left by the thresholding.
-3. `skeletonize()` the image. Since this software is primarily built for testing wireframe structures and we are mainly focused on seeing how the shape changes, this helps isolate just the features of the image.
-4. `dilation()` the skeleton to make the image thicker. This helps to actually give depth to the image and lets different layers better mesh together. We also assume the beams of the structure are of similar withs, so this helps ensure consistency between the sizing of each of the sturcture's rods.
+3. `skeletonize()` the image. Since this software is primarily built for testing wireframe structures and we are mainly focused on seeing how the shape changes, this helps isolate just the features of the image. This is only done if ``-skeletonize`` is set to True
+4. `dilation()` the skeleton to make the image thicker. This helps to actually give depth to the image and lets different layers better mesh together. We also assume the beams of the structure are of similar withs, so this helps ensure consistency between the sizing of each of the sturcture's rods. This is only done if ``-skeletonize`` is set to True.
+
 Then, the images are stacked into a 3D numpy array.
 
 ## Model Generation
