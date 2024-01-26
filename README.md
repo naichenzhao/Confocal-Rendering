@@ -1,6 +1,6 @@
 # Confocal Rendering Script
 
-A script to generate a 3D model using 2D electron microscope image slices. Thie code is used to re-construct 2-Photon_Polymerization (2PP) structures from 2D slices before and after being put under compression tests. 
+A script to generate a 3D model using 2D confocal image slices. Thie code is used to re-construct 2-Photon_Polymerization (2PP) structures from 2D slices before and after being put under compression tests. 
 
 ![unnamed](https://github.com/naichenzhao/Confocal-Rendering/assets/49353868/df1fbe0d-d7e9-425a-92e6-31c980c5237e)
 
