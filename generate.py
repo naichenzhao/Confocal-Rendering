@@ -95,11 +95,11 @@ def generate(matrx, length, name):
 
     # Smooth images
     print('   ... Smoothing model')
-    smoothed_mat = mcubes.smooth(matrx, sigma = 1.5)
+    smoothed_mat = mcubes.smooth(matrx, method='gaussian', sigma=length/600)
 
     # Run marching cubes
     print('   ... Running marching cubes')
-    vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0)
+    vertices, triangles = mcubes.marching_cubes(matrx, 0)
 
     # Scale Marching Cubes output to be square 
     print('   ... Scaling output model')
