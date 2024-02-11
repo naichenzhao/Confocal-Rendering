@@ -99,7 +99,7 @@ def generate(matrx, length, name):
 
     # Run marching cubes
     print('   ... Running marching cubes')
-    vertices, triangles = mcubes.marching_cubes(matrx, 0)
+    vertices, triangles = mcubes.marching_cubes(smoothed_mat, 0)
 
     # Scale Marching Cubes output to be square 
     print('   ... Scaling output model')
