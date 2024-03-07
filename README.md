@@ -61,7 +61,7 @@ Generating the model involves:
 
 
 # Library Dependancies
-The software was run and tested using `Python 3.11.5` though it should be backwards compatable with older versions. The required libraries are listed below, all of them can be downloaded through pip
+The software was run and tested using `Python 3.11.5` though it should be backwards compatible with older versions. The required libraries are listed below, all of them can be downloaded through pip
 - [os](https://docs.python.org/3/library/os.html) (for file access)
 - [numpy](https://numpy.org/) (cause numpy)
 - [argparse](https://docs.python.org/3/library/argparse.html) (for parsing command line arguments)
